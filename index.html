@@ -1,130 +1,242 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="css.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/54e2187904.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/1.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Nils FRODÉ DE LA FORÊT</h5>
-                <p>Étudiant en Programmation</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="images/2.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="images/3.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
+    /* Make sure that padding behaves as expected */ * {box-sizing:border-box} /* Container for skill bars */ .container { width: 100%; /* Full width */ background-color: #ddd; /* Grey background */ } .skills { text-align: right; /* Right-align text */ padding-top:
+    10px; /* Add top padding */ padding-bottom: 10px; /* Add bottom padding */ color: white; /* White text color */ } .html {width: 90%; background-color: #04AA6D;} /* Green */ .css {width: 80%; background-color: #2196F3;} /* Blue */ .js {width: 65%;
+    background-color: #f44336;} /* Red */ .php {width: 60%; background-color: #808080;} /* Dark Grey */
+</head>
+<div class="p-3 mb-2 bg-dark text-white">
 
-      
-      <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-              <i class="fa-brands fa-github"></i></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                <i class="fa-brands fa-linkedin"></i></a>
-      
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                <i class="fa-brands fa-twitter"></i></a>
-      
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fa-brands fa-youtube"></i></i></a>
-      
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fa-brands fa-instagram"></i></i></a>
-      
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="mailto: nils.frd@gmail.com" role="button"
-              ><i class="fa-solid fa-envelope"></i></a>
-          </section>
-          <!-- Section: Social media -->
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nils FRODÉ DE LA FORÊT</h5>
+                            <p>Étudiant en Programmation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright: Nils Frodé de la Forêt
+
+        <div class="bg-dark text-center text-white">
+            <h1>Frodé de la Forêt Nils</h1>
+            <p>Bonjour, je m’appelle Nils, je suis étudiant en BTS Services Informatique aux Organisations. Bienvenue sur mon Portfolio. Actuellement en première année de BTS je souhaite devenir développeur web car je suis passionné par la programmation.
+                J’aime énormément créer des choses de toutes pièces et me creuser la tête c’est pourquoi je veux faire de la programmation mon métier.</p>
         </div>
-        <!-- Copyright -->
-      </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        <div class="container text-center bg-dark text-dark">
+            <h1 class="text-light">Parcours Scolaire</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BTS SIO</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">2020-2022</h6>
+                            <p class="card-text">Lycée Notre Dame de la Providence</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BAC STI2D SIN</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">2016-2020</h6>
+                            <p class="card-text">Lycée Alexis de Tocqueville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BTS SIO</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">2020-2022</h6>
+                            <p class="card-text">Lycée Notre Dame de la Providence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h1 class="text-light">Expériences Professionnelles</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">NetKoders</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">4 Janvier - 5 Février 2022</h6>
+                            <p class="card-text">Stage</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">NetKoders</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">----</h6>
+                            <p class="card-text">Stage</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Kalhyge</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Été 2022</h6>
+                            <p class="card-text">Opérateur de Production</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Lidl Pontorson</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Décembre 2021</h6>
+                            <p class="card-text">Équipier Polyvalent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">LC Informatique</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Février 2015</h6>
+                            <p class="card-text">Réparation d'ordinateur et décontamination de virus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center bg-dark text-light">
+            <br>
+            <p>HTML</p>
+            <div class="skills html">90%</div>
+
+            <p>CSS</p>
+            <div class="skills css">80%</div>
+
+            <p>JavaScript</p>
+            <div class="skills js">65%</div>
+
+            <p>PHP</p>
+            <div class="skills php">60%</div>
+        </div>
+
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-github"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-linkedin"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-twitter"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fa-brands fa-youtube"></i></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fa-brands fa-instagram"></i></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="mailto: nils.frd@gmail.com" role="button"><i
+              class="fa-solid fa-envelope"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright: Nils Frodé de la Forêt
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</div>
+
 </html>
