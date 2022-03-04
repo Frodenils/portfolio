@@ -5,48 +5,22 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/54e2187904.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title>Hello, world!</title>
-    /* Make sure that padding behaves as expected */ * {box-sizing:border-box} /* Container for skill bars */ .container { width: 100%; /* Full width */ background-color: #ddd; /* Grey background */ } .skills { text-align: right; /* Right-align text */ padding-top:
-    10px; /* Add top padding */ padding-bottom: 10px; /* Add bottom padding */ color: white; /* White text color */ } .html {width: 90%; background-color: #04AA6D;} /* Green */ .css {width: 80%; background-color: #2196F3;} /* Blue */ .js {width: 65%;
-    background-color: #f44336;} /* Red */ .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
 </head>
+
 <div class="p-3 mb-2 bg-dark text-white">
 
+
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
-            </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -87,111 +61,143 @@
                 </a>
             </div>
         </div>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <div class="bg-dark text-center text-white">
             <h1>Frodé de la Forêt Nils</h1>
             <p>Bonjour, je m’appelle Nils, je suis étudiant en BTS Services Informatique aux Organisations. Bienvenue sur mon Portfolio. Actuellement en première année de BTS je souhaite devenir développeur web car je suis passionné par la programmation.
                 J’aime énormément créer des choses de toutes pièces et me creuser la tête c’est pourquoi je veux faire de la programmation mon métier.</p>
         </div>
-        <div class="container text-center bg-dark text-dark">
-            <h1 class="text-light">Parcours Scolaire</h1>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">BTS SIO</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">2020-2022</h6>
-                            <p class="card-text">Lycée Notre Dame de la Providence</p>
-                        </div>
+
+        <div class="w3-third">
+
+            <div class="w3-white w3-text-grey w3-card-4 mt-5">
+                <div class="w3-display-container">
+                    <img src="images/3.jpg" style="width:100%" id="Avatar">
+                    <div class="w3-display-bottomleft w3-container w3-text-black">
+                        <h2>Nils le KING</h2>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">BAC STI2D SIN</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">2016-2020</h6>
-                            <p class="card-text">Lycée Alexis de Tocqueville</p>
+                <div class="w3-container">
+                    <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal mt-3"></i>Étudiant</p>
+                    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Avranches, France</p>
+                    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>nils.frd@gmail.com</p>
+                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0782816434</p>
+                    <hr>
+
+                    <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Compétences</b></p>
+                    <p>PHP</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+                    </div>
+                    <p>HTML</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                            <div class="w3-center w3-text-white">80%</div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">BTS SIO</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">2020-2022</h6>
-                            <p class="card-text">Lycée Notre Dame de la Providence</p>
-                        </div>
+                    <p>CSS</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
                     </div>
-                </div>
-            </div>
-            <br>
-            <h1 class="text-light">Expériences Professionnelles</h1>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">NetKoders</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">4 Janvier - 5 Février 2022</h6>
-                            <p class="card-text">Stage</p>
-                        </div>
+                    <p>Python</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">NetKoders</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">----</h6>
-                            <p class="card-text">Stage</p>
-                        </div>
+                    <br>
+
+                    <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+                    <p>English</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Kalhyge</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Été 2022</h6>
-                            <p class="card-text">Opérateur de Production</p>
-                        </div>
+                    <p>Spanish</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
                     </div>
+                    <p>German</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+                    </div>
+                    <br>
                 </div>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Lidl Pontorson</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Décembre 2021</h6>
-                            <p class="card-text">Équipier Polyvalent</p>
-                        </div>
-                    </div>
+            <!-- End Left Column -->
+        </div>
+
+        <div class="w3-twothird">
+            <div class="w3-container w3-card w3-white m-5">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Parcours Scolaire</h2>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>BTS SIO</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020-2022</h6>
+                    <p>Lycée Notre Dame de la Providence</p>
+                    <hr>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">LC Informatique</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Février 2015</h6>
-                            <p class="card-text">Réparation d'ordinateur et décontamination de virus</p>
-                        </div>
-                    </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>BAC STI2D SIN</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-2020</h6>
+                    <p>Lycée Alexis de Tocqueville</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>Brevet</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2015</h6>
+                    <p>Collège Félix Buhot</p><br>
                 </div>
             </div>
         </div>
-        <div class="container text-center bg-dark text-light">
-            <br>
-            <p>HTML</p>
-            <div class="skills html">90%</div>
 
-            <p>CSS</p>
-            <div class="skills css">80%</div>
-
-            <p>JavaScript</p>
-            <div class="skills js">65%</div>
-
-            <p>PHP</p>
-            <div class="skills php">60%</div>
+        <div class="w3-twothird">
+            <div class="w3-container w3-card w3-white m-5">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Expériences Professionnelles</h2>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>NetKoders</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>4 Janvier - 5 Février 2022 ----</h6>
+                    <p>2 Stages effectués</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>Kalhyge</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Été 2021</h6>
+                    <p>Opérateur de production</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>LC Informatique</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Février 2015</h6>
+                    <p>Stage</p><br>
+                </div>
+            </div>
         </div>
-
         <footer class="bg-dark text-center text-white">
             <!-- Grid container -->
             <div class="container p-4 pb-0">
