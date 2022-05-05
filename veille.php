@@ -66,7 +66,7 @@
 
 				<nav id="main-nav-wrap">
 					<ul class="main-navigation">
-						<li><a class="smoothscroll" href="veille.php#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="veille.php#intro" title="">Accueil</a></li>
 						<li><a class="smoothscroll" href="veille.php#styles" title="">Veille</a></li>
 						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
 						<li><a href="index.html" title="">Retour Accueil</a></li>
