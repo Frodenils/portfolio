@@ -123,8 +123,12 @@
 				<p class="lead">Le règlement général sur la protection des données (RGPD) responsabilise 
 					les organismes publics et privés qui traitent leurs données.</p>
 
-			</div>
 
+
+				<p class="lead">Pour m'informer sur l'actualité en rapport avec le RGPD j'utilise le <b class="term">flux RSS de la CNIL</b>, 
+				<b class="term">Google alert</b> par mail, la <b class="term">newsletter de la CNIL</b> (cnil.fr) et aussi des recherches Google.</p>
+
+				</div>
 		</div> <!-- /row -->
 
 		<div class="row section-intro">
@@ -180,19 +184,6 @@
 	<!-- contact
    ================================================== -->
 	<section id="contact">
-
-		<div class="row section-intro">
-			<div class="col-twelve">
-
-				<h5>Veille Technologique - RGPD</h5>
-				<h1>Moyens d'agrégation</h1>
-
-				<p class="lead">Pour m'informer sur l'actualité en rapport avec le RGPD j'utilise le <b class="term">flux RSS de la CNIL</b>, 
-				<b class="term">Google alert</b> par mail, la <b class="term">newsletter de la CNIL</b> (cnil.fr) et aussi des recherches Google.</p>
-
-			</div>
-		</div> <!-- /section-intro -->
-
 		<div class="row contact-info">
 
 <div class="col-four tab-full">
